@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="FA3.css">
+    </head>
+    <body>
+       <div class="calculator">
+
+            <h1>calcU</h1><br>
+            <p>This page is a simple calculator.</p><br>
+            <p>Enter two numbers and select and operation: </p><br>
+
+            <div class="inputvalue">
+                <input type="text" id="num1" placeholder="Num1">
+                <input type="text" id="num2" placeholder="Num2"><br><br>
+            </div>
+
+            <div class="buttons">
+                <button onclick="calculator('+')">+</button>
+                <button onclick="calculator('-')">-</button>
+                <button onclick="calculator('*')">*</button>
+                <button onclick="calculator('/')">/</button>
+                <button onclick="calculator('%')">%</button>
+            </div>
+
+            <p id="result">Results will be displayed here.</p>
+
+       </div>
+
+        <script src="FA3.js"></script>
+    </body>
+</html>
